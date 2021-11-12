@@ -6259,6 +6259,54 @@ readers do not read off random characters that represent icons */
           align-items: center;
 }
 
+.maintxt {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.maintxt div {
+  width: 80%;
+}
+
+.maintxt h1 {
+  text-align: center;
+  font-size: 270%;
+  margin-top: 5%;
+  margin-bottom: 0%;
+}
+
+.maintxt hr {
+  width: 4%;
+  border-top: 2px solid #9b009d;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+
+.maintxt ul {
+  margin-top: 5%;
+}
+
+.maintxt h2 {
+  font-size: 250%;
+}
+
+.maintxt p {
+  margin-bottom: 2%;
+}
+
+.maintxt li {
+  margin-bottom: 2%;
+}
+
+.maintxt li::marker {
+  color: #9b009d;
+}
+
 body {
   margin: 0%;
 }
