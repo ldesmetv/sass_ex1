@@ -9,6 +9,12 @@
         width: 2.5%
         position: absolute
         left: 0
+    @media (max-width: $tablet) and (min-width: $mobilel)
+        height: 5vw
+        img
+            width: 5%
+    @media (max-width: $mobilel)
+        display: none
 
 .mail
     width: 37%
@@ -23,6 +29,12 @@
     input[type="button"]
         background-color: #00e173
         color: white
+    @media (max-width: $laptop) and (min-width: $tablet)
+        width: 40%
+        font-size: 60%
+    @media (max-width: $tablet) and (min-width: $mobilel)
+        width: 70%
+        font-size: 100%
 
 .navbar
     width: 100%
@@ -30,6 +42,11 @@
     display: flex
     div
         border: solid 1px #b4b4b457
+    @media (max-width: $tablet) and (min-width: $mobilel)
+        height: 15vw
+    @media (max-width: $mobilel)
+        height: 50vw
+        flex-direction: column
 
 .logo1
     width: 18%
@@ -38,6 +55,12 @@
     align-items: center
     img
         width: 50%
+    @media (max-width: $tablet) and (min-width: $mobilel)
+        width: 30%
+    @media (max-width: $mobilel)
+        width: 100%
+        height: 50%
+        background-color: #9b009d
 
 .links
     width: 64%
@@ -54,6 +77,24 @@
         text-decoration: none
         font-size: 90%
         color: black
+    @media (max-width: $tablet) and (min-width: $mobilel)
+        width: 70%
+    @media (max-width: $mobilel) and (min-width: $mobilem)
+        width: 100%
+        height: 50%
+        font-size: 140%
+        ul
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+    @media (max-width: $mobilem)
+        width: 100%
+        height: 50%
+        font-size: 120%
+        ul
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
 
 .txtcowork
     width: 18%
@@ -61,3 +102,5 @@
     display: flex
     justify-content: center
     align-items: center
+    @media (max-width: $tablet)
+        display: none

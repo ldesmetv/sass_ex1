@@ -9,6 +9,9 @@
     a
         text-decoration: none
         color: white
+    
+    @media (max-width: $mobilel)
+        height: 15vw
 
 .socialbox
     width: 35%
@@ -21,6 +24,10 @@
         align-items: center
     span
         margin-inline: 10%
+    @media (max-width: $tablet) and (min-width: $mobilel)
+        width: 50%
+    @media (max-width: $mobilel)
+        width: 80%
 
 .copyright
     width: 100%
@@ -37,3 +44,5 @@
         flex-direction: column
         justify-content: space-between
         align-items: center
+    @media (max-width: $mobilel)
+        height: 30vw
