@@ -6161,7 +6161,7 @@ readers do not read off random characters that represent icons */
   left: 0;
 }
 
-@media (max-width: 768px) and (min-width: 425px) {
+@media (max-width: 768px) and (min-width: 426px) {
   .newsletter {
     height: 5vw;
   }
@@ -6170,7 +6170,7 @@ readers do not read off random characters that represent icons */
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .newsletter {
     display: none;
   }
@@ -6208,7 +6208,7 @@ readers do not read off random characters that represent icons */
   }
 }
 
-@media (max-width: 768px) and (min-width: 425px) {
+@media (max-width: 768px) and (min-width: 426px) {
   .mail {
     width: 70%;
     font-size: 100%;
@@ -6227,13 +6227,13 @@ readers do not read off random characters that represent icons */
   border: solid 1px #b4b4b457;
 }
 
-@media (max-width: 768px) and (min-width: 425px) {
+@media (max-width: 768px) and (min-width: 426px) {
   .navbar {
     height: 15vw;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .navbar {
     height: 50vw;
     -webkit-box-orient: vertical;
@@ -6260,13 +6260,13 @@ readers do not read off random characters that represent icons */
   width: 50%;
 }
 
-@media (max-width: 768px) and (min-width: 425px) {
+@media (max-width: 768px) and (min-width: 426px) {
   .logo1 {
     width: 30%;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .logo1 {
     width: 100%;
     height: 50%;
@@ -6304,13 +6304,13 @@ readers do not read off random characters that represent icons */
   color: black;
 }
 
-@media (max-width: 768px) and (min-width: 425px) {
+@media (max-width: 768px) and (min-width: 426px) {
   .links {
     width: 70%;
   }
 }
 
-@media (max-width: 425px) and (min-width: 375px) {
+@media (max-width: 426px) and (min-width: 375px) {
   .links {
     width: 100%;
     height: 50%;
@@ -6415,7 +6415,7 @@ readers do not read off random characters that represent icons */
   color: #9b009d;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .maintxt ul {
     padding-left: 7%;
   }
@@ -6442,7 +6442,7 @@ readers do not read off random characters that represent icons */
   color: white;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .social {
     height: 15vw;
   }
@@ -6475,13 +6475,13 @@ readers do not read off random characters that represent icons */
   margin-inline: 10%;
 }
 
-@media (max-width: 768px) and (min-width: 425px) {
+@media (max-width: 768px) and (min-width: 426px) {
   .socialbox {
     width: 50%;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .socialbox {
     width: 80%;
   }
@@ -6521,7 +6521,7 @@ readers do not read off random characters that represent icons */
           align-items: center;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .copyright {
     height: 30vw;
   }
